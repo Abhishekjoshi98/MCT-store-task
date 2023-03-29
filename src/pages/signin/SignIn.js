@@ -46,16 +46,15 @@ function SignIn() {
           </h1>
           <p>it's great to have you back!</p>
           <label htmlFor="email">EMAIL</label>
-          <br />
           <input
             name="email"
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <br />
+          
           <label htmlFor="password">PASSWORD</label>
-          <br />
+          
           <input
             name="password"
             type="password"
